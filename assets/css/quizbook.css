@@ -1,0 +1,42 @@
+
+.quizbook {
+ background-color: #f1f1f1;
+ border-radius: 10px;
+}
+
+.quizbook ul {
+    list-style: none;
+}
+
+.quizbook ul li {
+    padding: 10px;
+}
+
+.quizbook ul li ol {
+    border: 1px dashed #ccc;
+    border-radius: 10%;
+}
+.quizbook ul li h3 {
+
+}
+.quizbook ul li .answer {
+    padding: 20px;
+    /* border:1px solid #506b8a; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.quizbook ul li .answer:hover,
+.quizbook ul li ol li.answer.selected {
+    background-color: cornflowerblue;
+    color:white;
+    cursor: pointer;
+}
+
+
+.aproved {
+    border: 2px solid #248c24;
+}
+.noaproved {
+    border: 2px solid #c20000;
+}
